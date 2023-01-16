@@ -1,0 +1,34 @@
+   /*val ricardo = Pessoa()
+    ricardo.nome = "ricardo franco de oliveira"
+    ricardo.altura = 2.15
+    ricardo.corDosOlhos = "verde"
+    ricardo.peso = 100.0
+    print(ricardo.altura)// para exibir um atributo em expesifico
+    */
+    
+    val convidado1 = pessoa("Fred",190, "verdes", 80.0)
+    println(&convidado1.peso)
+    val convidado2 =pessoa("Star", 163, "castanho",60.5)
+    println(&convidado2.altura)
+    val convidado3 = pessoa("Luna",163, "azul",60.0)
+    println(convidado3.cordosOlhos)
+    val convidado4 = pessoa("Alex", 170, "castanho",70.0)
+    val convidado5 = pessoa("George",190, "verdes",80.0) 
+    val convidado6 = pessoa("Nick",170,"verde",90.5) 
+    val convidado7 = pessoa("sirios",180 "verdes" 70.0)
+    
+    
+}
+
+class Pessoa(val nome:string,
+            val altura:double,
+            val cordosOlhos:string,
+            val peso:double ){ 
+     //declarando atributo para a clace
+     /*
+    var nome = ""
+    var altura = 0.0
+    var corDosOlhos = ""
+    var peso - 0.0
+    /*
+}
