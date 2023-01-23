@@ -31,4 +31,62 @@ class Pessoa(val nome:string,
     var corDosOlhos = ""
     var peso - 0.0
     /*
+} /*
+    val dinossauro = animal("repitil", 'M', "floresta amazonica", 
+                            "carnivoro",397,true)
+   // println("meu bixinho e um"+dinossauro.clase",ele e "+dinosalro.dieta)
+    dinossauro.atacar(true) 
+    */
+    val contaCorrente = ContaNoBanco(4002, 8922.00, "safra",
+                                    "franco Francescco Aguero")
+    contaCorrente.consutarsaldo()
+    
+    
+    
+    
+    
 }
+class pessoa(val nome:String,
+            val alutura:Double,
+            val cordosolhos:String,
+            val peso:Double ){
+    //declarando atributos para a clase
+    /*
+    var nome = ""
+    var alutura*/
+    
+    
+}
+class animal(val calase:String, val genero: Char, val habitar:String,
+            val dieta:String, val idade: Int, val voa:Boolean){
+    
+    fun atacar(bravo: Boolean){
+        if(bravo == true){
+            println("animal Bravo")
+       }else{
+            println("animal de boa")} }
+            
+    fun comer(comendo: Boolean){
+        if(comendo == true){
+            println("animal comendo")
+       }else{
+            println("animal dormindo")
+       }
+   } 
+   //exercicio:faça um novo comportamento para seu animal usando uma nova fun
+    
+}
+//metodos - conportamento danossa clase, que os nossos receberao 
+//eles sao declarados usando funçoes//
+
+class ContaNoBanco(var senha: Int, var saldo: Double,
+                  var banco: String, var dono: String,
+                  ){
+    fun consutarsaldo(){
+        println("O saldo da sua conta de r$$saldo")
+    }
+}
+    
+   
+        
+
